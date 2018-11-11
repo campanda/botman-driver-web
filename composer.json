@@ -1,5 +1,5 @@
 {
-    "name": "botman/driver-web",
+    "name": "campanda/botman-driver-web",
     "license": "MIT",
     "description": "Web driver for BotMan",
     "keywords": [
@@ -12,11 +12,14 @@
         {
             "name": "Marcel Pociot",
             "email": "m.pociot@gmail.com"
+        },
+        {
+            "name": "Helmut Hoffer von Ankershoffen",
+            "email": "helmut.hoffer.von.ankershoffen@campanda.com"
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "botman/botman": "~3.0"
+        "php": ">=7.0"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
