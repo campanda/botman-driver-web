@@ -335,4 +335,14 @@ class WebDriver extends HttpDriver
     {
         return 'data: '.(function_exists('mime_content_type') ? mime_content_type($file) : $mime).';base64,'.base64_encode(file_get_contents($file));
     }
+
+    /**
+     * Tells if the stored conversation callbacks are serialized.
+     *
+     * @return bool
+     */
+    public function serializesCallbacks()
+    {
+        return false;
+    }
 }
